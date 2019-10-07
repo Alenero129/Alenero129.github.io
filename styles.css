@@ -1,0 +1,76 @@
+body {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  font-family: Times, serif;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  background-color: #66d44a;
+  margin-bottom: 15px;
+}
+
+#title {
+  width: 45%;
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+}
+
+#content {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#contacts {
+  background-color: #D0D0D0;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+
+  margin-right: 5%;
+}
+
+#info {
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.dataentry {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.entrydate {
+  flex-grow: 2;
+}
+
+.entrydetail {
+  flex-grow: 7;
+  margin-left: 5%;
+  margin-bottom: 7%;
+}
+
+.skill-exp {
+  display: flex;
+}
+
+.skills {
+  flex-grow: 5;
+}
+
+.fa {
+  text-decoration: none;
+  padding-right: 15%;
+  padding-bottom: 5%;
+}
